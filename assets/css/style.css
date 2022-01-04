@@ -24,6 +24,11 @@ img {
     
 }
 
+.table.table-borderless.fw-light {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
 .custom-resume {
     background-color:var(--light);
 }
@@ -85,6 +90,10 @@ img + p > span {
     .custom-text-cont p {
         font-size: 0.8rem;
     }
+    .table.table-borderless.fw-light {
+        font-size: 0.8rem;
+    }
+
 }
 
 @media screen and (max-width: 768px){
